@@ -1,7 +1,7 @@
 Config = {}
 
 -- Language
-Config.defaultlang = 'en_lang'
+Config.defaultlang = 'es_lang'
 -----------------------------------------------------
 
 Config.devMode = false -- Default: false / Do Not Run on a Live Server
@@ -19,7 +19,7 @@ Config.discord = {
 -- 0 = Cash Only
 -- 1 = Gold Only
 -- 2 = Both
-Config.currencyType = 2 -- Default: 2
+Config.currencyType = 0 -- Default: 2
 -----------------------------------------------------
 
 Config.keys = {
@@ -171,7 +171,7 @@ Config.drinkLength = 20 -- Default: 20 / Time in Seconds for Animation to Run
 -----------------------------------------------------
 
 -- Places Horse Name Above Horse When Saddle is Empty
-Config.horseTag = true  -- Default: true / Set to false to disable
+Config.horseTag = false  -- Default: true / Set to false to disable
 Config.tagDistance = 15 -- Default: 15 / Distance from Horse the Tag is Visible
 -----------------------------------------------------
 
