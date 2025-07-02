@@ -176,7 +176,7 @@ Config.tagDistance = 15 -- Default: 15 / Distance from Horse the Tag is Visible
 -----------------------------------------------------
 
 -- Horse Training and Taming
-Config.trainerOnly = false -- Default: false / Only Trainers can Tame and Keep/Sell Wild Horses / Only Trainers can Train Horses
+Config.trainerOnly = true -- Default: false / Only Trainers can Tame and Keep/Sell Wild Horses / Only Trainers can Train Horses
 Config.trainerJob = {
     { name = 'trainer', grade = 0 },
 }
